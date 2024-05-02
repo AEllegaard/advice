@@ -5,11 +5,12 @@
             <img class="self-end hover:animate-spin" src="/media/cowboy.png" alt="" draggable="false">
             <img class="col-start-6 row-start-2 self-end mt-4 hover:animate-spin" src="/media/miffy.svg" alt="" draggable="false">
             <img class="row-start-9 col-start-5 self-center hover:animate-spin" src="/media/hmm.png" alt="" draggable="false">           </div>
-        <div class="grid grid-rows-4">
-          <h1 class="font-scale text-center row-start-1 text-4xl m-20">ADVICES</h1>
-  
-          <p class="font-scale text-xl text-center row-start-2">What is your color today?</p>
-          <div class="absolute row-start-2 justify-items-center self-center mt-4 flex justify-center flex-col items-center">
+        <div class="grid grid-rows-4 w-full">
+            <div class="flex flex-col">
+                <h1 class="font-scale text-center row-start-1 text-4xl mt-20">ADVICES</h1>
+                  <p class="font-scale text-xl text-center mt-10">What is your color today?</p>
+            </div>
+          <div class="absolute row-start-2 w-1/4 self-center ml-10 flex  flex-col items-center">
             <canvas class="canvas" ref="canvas"></canvas>
           </div>
   
